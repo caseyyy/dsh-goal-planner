@@ -1,0 +1,11 @@
+# dsh-goal-planner: 目标驱动的每日任务计划器
+# - Host 端（exports "."）：数据读写 + loopback HTTP API
+# - Client 端（exports "./client"，由 dsh.client 声明加载）：设置页「目标计划」预览面板
+# - tasksPath 留空 = 使用 $DSH_HOME/dsh-goal-planner/tasks.json；
+#   本机部署时指向现有数据文件（如 D:\HarnessWorkbench\goals\tasks.json）即可与
+#   微信推送链路（push-daily.mjs / dsh-automation）共享同一份数据。
+- insert:
+    - id: goal-planner
+      name: 'dsh-goal-planner'
+      config:
+        tasksPath: ''
