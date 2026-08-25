@@ -12,6 +12,20 @@ Goal-driven daily task planner for DeepSeek Harness: multi-goal task data + a da
 - 🔌 **与推送链路共享数据**：`tasksPath` 配置指向现有 `tasks.json`，即可与 `push-daily.mjs` + `dsh-automation` 的每晚微信推送共用同一份数据
 - 🔒 **Loopback 安全**：HTTP API 仅允许 127.0.0.1 访问
 
+## 界面预览 / Screenshots
+
+设置侧边栏入口（设置 → 目标计划）：
+
+![设置入口](docs/00-settings.png)
+
+今日任务面板（目标概览 + 日期导航 + 任务卡片）：
+
+![今日面板](docs/01-panel-today.png)
+
+多任务日期（同一天多个任务依次排列，可一键勾选完成）：
+
+![多任务日期](docs/02-panel-multi-day.png)
+
 ## 数据模型 / Data model
 
 ```json
