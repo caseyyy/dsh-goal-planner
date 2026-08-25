@@ -1,5 +1,11 @@
 # dsh-goal-planner
 
+<p align="center">
+  <a href="https://github.com/caseyyy/dsh-goal-planner/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/caseyyy/dsh-goal-planner"></a>
+  <a href="LICENSE"><img alt="License: GPL-2.0" src="https://img.shields.io/badge/license-GPL--2.0-red.svg"></a>
+  <a href="https://awesome-dsh-plugin.com/zh/"><img alt="Awesome DSH Plugin" src="https://awesome-dsh-plugin.com/badge.svg"></a>
+</p>
+
 目标驱动的每日任务计划器（DeepSeek Harness 插件）：多目标任务数据 + Web 端「目标计划」预览面板，与微信提醒推送链路共享同一份数据文件。
 
 Goal-driven daily task planner for DeepSeek Harness: multi-goal task data plus a daily preview panel in the Web GUI, sharing one data file with the WeChat reminder pipeline.
